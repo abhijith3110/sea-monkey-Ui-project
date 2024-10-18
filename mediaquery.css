@@ -26,30 +26,32 @@
     width: 100px;
   }
 
+  header {
+    height: 600px;
+  }
+
   .hr {
     width: 70%;
   }
 
-  .header-banner-content-heading h1 {
+  /* Banner */
+
+  .banner-content-heading h1 {
     font-size: 125px;
     line-height: 124px;
   }
 
-  .header-banner-content-sub-heading p {
+  .banner-content-sub-heading p {
     font-size: 38px;
     line-height: 60px;
     font-weight: 500;
   }
 
-  .header-banner-content-content p {
+  .banner-content-content p {
     font-size: 22px;
   }
 
-  header {
-    height: 600px;
-  }
-
-  .header-banner-base-img {
+  .banner-base-img {
     display: none;
   }
 
@@ -68,6 +70,7 @@
 
   .about-section-img {
     margin: 0 auto;
+    width: 700px;
   }
 }
 
@@ -76,6 +79,10 @@
 
   ul li a {
     display: none;
+  }
+
+  header {
+    height: 600px;
   }
 
   .hr {
@@ -90,22 +97,20 @@
     width: 80px;
   }
 
-  .header-banner-content-heading h1 {
+  /* Banner */
+
+  .banner-content-heading h1 {
     font-size: 105px;
     line-height: 104px;
   }
 
-  .header-banner-content-sub-heading p {
+  .banner-content-sub-heading p {
     font-size: 30px;
     line-height: 50px;
   }
 
-  .header-banner-content-content p {
+  .banner-content-content p {
     font-size: 20px;
-  }
-
-  header {
-    height: 600px;
   }
 
   /* About */
@@ -143,27 +148,29 @@
     display: none;
   }
 
-  .header-banner-content-heading h1 {
+  header {
+    height: 500px;
+  }
+
+  /* Banner */
+
+  .banner-content-heading h1 {
     font-size: 85px;
     line-height: 104px;
   }
 
-  .header-banner-content-sub-heading p {
+  .banner-content-sub-heading p {
     font-size: 24px;
     line-height: 60px;
     font-weight: 600;
   }
 
-  .header-banner-content-content p {
+  .banner-content-content p {
     font-size: 18px;
     margin: 10px;
   }
 
-  header {
-    height: 500px;
-  }
-
-  .header-banner-content-btn button {
+  .banner-content-btn button {
     margin: 0px 0px 40px 0px;
   }
 
