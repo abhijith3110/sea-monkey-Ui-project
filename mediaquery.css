@@ -96,6 +96,19 @@
   .expeditions-card-content-header {
     gap: 20px;
   }
+
+  /* faq */
+  
+  .faq-sub-header p, .faq-content-heading p,.faq-sub-content p{
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .faq-content-content{
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 900px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -295,4 +308,16 @@
     gap: 10px;
     height: 100px;
   }
+
+    /* faq */
+  
+    .faq-sub-header p, .faq-content-heading p,.faq-sub-content p{
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .faq-content-content{
+      font-size: 12px;
+      line-height: 20px;
+    }
 }

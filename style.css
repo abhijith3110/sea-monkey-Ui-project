@@ -398,3 +398,80 @@ i,
 .expeditions-card-img img {
   width: 100%;
 }
+
+/* FAQ */
+
+.faq-container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.faq-header{
+  display: block;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.faq-header-heading p{
+  font-family: "bagian",sans-serif;
+  font-size: 36px;
+  line-height: 39px;
+}
+
+.faq-header-sub-heading{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.faq-sub-header{
+  margin: 20px 0px;
+}
+
+.faq-sub-header p, .faq-content-heading p,.faq-sub-content p{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.faq-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0px;
+}
+
+.faq-content-content{
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 900px;
+}
+
+.faq-sub-content{
+  margin: 30px 0px;
+}
+
+.faq-btn button {
+  display: flex;
+  align-items: center;
+  padding: 12px 30px;
+  background: rgba(0, 111, 249, 1);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.faq-btn button i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.faq-btn{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
