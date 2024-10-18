@@ -96,6 +96,7 @@ header {
   border-radius: 50%;
   padding: 0px;
   font-size: 14px;
+  color: #ffff;
 }
 
 .header-logo {
@@ -172,6 +173,7 @@ header {
   border-radius: 50%;
   padding: 0px;
   font-size: 14px;
+  color: #fff;
 }
 
 .banner-base-img {
@@ -234,8 +236,8 @@ header {
 
 /* Expeditions-section */
 
-.expeditions-section{
-  max-width: 1300px;
+.expeditions-section-container {
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -243,26 +245,34 @@ header {
   gap: 40px;
 }
 
-.expeditions-navs{
+.expeditions-section {
+  padding: 100px 0px;
+}
+
+.expeditions-navs {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   max-width: 900px;
   margin: 0 auto;
-  gap: 100px;
+  gap: 85px;
+  align-items: center;
 }
 
-.expeditions-nav-all{
+.expeditions-nav-all {
   border: 1px solid rgba(255, 165, 9, 1);
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
-  width: 69px;
+  width: 60px;
 }
 
-.expeditions-nav-all p{
+.expeditions-nav-all p {
   text-align: center;
+  color: rgba(255, 165, 9, 1);
+  margin: 0 auto;
+  max-width: 40px;
 }
 
-.expeditions-header{
+.expeditions-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,18 +280,121 @@ header {
   gap: 20px;
 }
 
-.expeditions-header-heading h2{
+.expeditions-header-heading h2 {
   font-family: "bagian", sans-serif;
   font-size: 36px;
   line-height: 40px;
 }
 
-.expeditions-header-sub-heading p{
+.expeditions-header-sub-heading p {
   font-size: 16px;
   line-height: 26px;
 }
 
-.expeditions-nav{
-  width: 69px;
+.expeditions-nav {
+  width: 60px;
 }
 
+.expeditions-nav img {
+  width: 100%;
+}
+
+.expeditions-nav-last-img img {
+  width: 100px;
+}
+
+.expeditions-card {
+  width: 300.21px;
+  padding: 0px 0px 20px 0px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.expeditions-card-content-heading p {
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 181px;
+}
+
+.expeditions-card-content-header-tag {
+  padding: 5px 15px;
+  background: rgba(255, 165, 9, 0.5);
+  border-radius: 5px;
+}
+
+.expeditions-card-content-header-tag p {
+  color: rgba(57, 57, 57, 1);
+}
+
+.expeditions-card-content-header,
+.expeditions-card-content-sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expeditions-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  height: 200px;
+}
+
+.expeditions-card-content-header p {
+  font-size: 18px;
+}
+
+.expeditions-card-content-sub-heading p,
+i,
+.expeditions-card-content-sub-header-time p,
+i,
+.expeditions-card-content-content p {
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(57, 57, 57, 1);
+}
+
+.expeditions-card-content-sub-heading i,
+.expeditions-card-content-sub-header-time i {
+  margin-right: 10px;
+}
+
+.expeditions-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.expeditions-card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expeditions-card-btn button {
+  display: flex;
+  align-items: center;
+  padding: 12px 30px;
+  background: rgba(0, 111, 249, 1);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.expeditions-card-btn button i {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.expeditions-card-img img {
+  width: 100%;
+}

@@ -36,7 +36,7 @@
 
   #header-navbar.scrolled {
     height: 100px;
-    }
+  }
 
   /* Banner */
 
@@ -77,6 +77,25 @@
     width: 700px;
   }
 
+  /* expeditions-section */
+
+  .expeditions-card {
+    width: 300.21px;
+  }
+
+  .expeditions-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+  }
+
+  .expeditions-navs {
+    grid-template-columns: repeat(3, 0fr);
+    gap: 50px;
+  }
+
+  .expeditions-card-content-header {
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -104,7 +123,7 @@
 
   #header-navbar.scrolled {
     height: 130px;
-    }
+  }
 
   /* Banner */
 
@@ -135,6 +154,23 @@
 
   .about-section-img {
     display: none;
+  }
+
+  /* expeditions */
+  .expeditions-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+  }
+
+  .expeditions-navs {
+    grid-template-columns: repeat(2, 0fr);
+    gap: 50px;
+  }
+
+  .expeditions-card-content {
+    padding: 10px;
+    gap: 10px;
+    height: 100px;
   }
 }
 
@@ -198,5 +234,65 @@
     display: flex;
     gap: 50px;
     margin: 50px 0px 50px 0px;
+  }
+
+  /* expeditions section */
+
+  .expeditions-navs {
+    grid-template-columns: repeat(2, 0fr);
+    gap: 50px;
+  }
+
+  .expeditions-nav {
+    width: 40px;
+  }
+
+  .expeditions-nav-last-img img {
+    width: 67px;
+  }
+
+  .expeditions-nav-all {
+    width: 40px;
+    padding: 30px;
+  }
+
+  .expeditions-card {
+    width: 200.21px;
+  }
+
+  .expeditions-header-sub-heading p {
+    font-size: 14px;
+  }
+
+  .expeditions-card-content-heading p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .expeditions-card-content-header-tag {
+    font-size: 12px;
+  }
+
+  .expeditions-card-content-header-tag {
+    padding: 2px 10px;
+  }
+
+  .expeditions-card-content-header {
+    gap: 10px;
+  }
+
+  .expeditions-card-content-sub-heading p,
+  i,
+  .expeditions-card-content-sub-header-time p,
+  i,
+  .expeditions-card-content-content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .expeditions-card-content {
+    padding: 10px;
+    gap: 10px;
+    height: 100px;
   }
 }
