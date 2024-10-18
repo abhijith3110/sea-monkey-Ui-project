@@ -44,7 +44,8 @@ header {
 }
 
 #header-navbar.scrolled {
-  background-color: #000;
+  background-color: #000000;
+  height: 95px;
 }
 
 .header-container {
@@ -230,3 +231,57 @@ header {
   color: rgba(57, 57, 57, 1);
   max-width: 586px;
 }
+
+/* Expeditions-section */
+
+.expeditions-section{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.expeditions-navs{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 100px;
+}
+
+.expeditions-nav-all{
+  border: 1px solid rgba(255, 165, 9, 1);
+  padding: 40px;
+  border-radius: 10px;
+  width: 69px;
+}
+
+.expeditions-nav-all p{
+  text-align: center;
+}
+
+.expeditions-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.expeditions-header-heading h2{
+  font-family: "bagian", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.expeditions-header-sub-heading p{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.expeditions-nav{
+  width: 69px;
+}
+
