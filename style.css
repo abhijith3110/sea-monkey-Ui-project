@@ -119,7 +119,7 @@ header {
   background-size: cover;
   background-image: url("/asserts/images/banner_img.svg");
   width: 100%;
-  height: 730px;
+  /* height: 730px; */
 }
 
 .banner {

@@ -421,4 +421,10 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
+
+  .gallery-page-sub-heading p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+  }
 }
