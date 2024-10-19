@@ -317,7 +317,7 @@ header {
 }
 
 .expeditions-card-content-header-tag {
-  padding: 5px 15px;
+  padding: 2px 15px;
   background: rgba(255, 165, 9, 0.5);
   border-radius: 5px;
 }
@@ -339,10 +339,6 @@ header {
   padding: 10px;
   gap: 20px;
   height: 200px;
-}
-
-.expeditions-card-content-header p {
-  font-size: 18px;
 }
 
 .expeditions-card-content-sub-heading p,
@@ -625,3 +621,78 @@ textarea:focus {
   display: flex;
   justify-content: center;
 }
+
+/* footer */
+
+footer{
+  background: #000;
+  padding: 50px 0px;
+}
+
+.footer-container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-logo{
+  text-align: center;
+}
+
+.footer-nav{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-social-links{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-social-links i{
+  color: #000000;
+}
+
+.footer-social-btn{
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 5px 10px;
+  background: #fff;
+}
+
+.copyright-banner{
+  background: #000;
+  padding: 20px 0px;
+}
+
+.copyright-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+
+  p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+
+}
+

@@ -98,13 +98,15 @@
   }
 
   /* faq */
-  
-  .faq-sub-header p, .faq-content-heading p,.faq-sub-content p{
+
+  .faq-sub-header p,
+  .faq-content-heading p,
+  .faq-sub-content p {
     font-size: 22px;
     line-height: 30px;
   }
 
-  .faq-content-content{
+  .faq-content-content {
     font-size: 14px;
     line-height: 24px;
     max-width: 900px;
@@ -112,13 +114,7 @@
 
   /* contact-section */
 
-  /* .contact-sec-details-name , .contact-sec-details-conatact{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  } */
-
-  .contact-sec-img{
+  .contact-sec-img {
     display: none;
   }
 }
@@ -126,7 +122,7 @@
 @media screen and (max-width: 768px) {
   /* Header */
 
-  ul li a {
+  .header-nav ul li a {
     display: none;
   }
 
@@ -197,7 +193,36 @@
     gap: 10px;
     height: 100px;
   }
+
+  /* footer */
+
+  .copyright-container{
+  
+    p{
+      color: #fff;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  .footer-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-nav ul li a{
+    font-size: 12px;
+  }
+
+  /* faq */
+
+  .faq-sub-header p, .faq-content-heading p, .faq-sub-content p {
+    font-size: 18px;
+    line-height: 25px;
 }
+}
+
 
 @media screen and (max-width: 424px) {
   /* header */
@@ -321,23 +346,59 @@
     height: 100px;
   }
 
-    /* faq */
-  
-    .faq-sub-header p, .faq-content-heading p,.faq-sub-content p{
-      font-size: 18px;
-      line-height: 26px;
-    }
 
-    .faq-content-content{
-      font-size: 12px;
-      line-height: 20px;
-    }
+  /* faq */
 
-    /* contact-section */
+  .faq-sub-header p,
+  .faq-content-heading p,
+  .faq-sub-content p {
+    font-size: 18px;
+    line-height: 26px;
+  }
 
-      .contact-sec-details-name , .contact-sec-details-conatact{
+  .faq-content-content {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  /* contact-section */
+
+  .contact-sec-details-name,
+  .contact-sec-details-conatact {
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+
+  /* footer */
+  .copyright-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-nav ul{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+  }
+  
+  .footer-nav ul li a{
+    font-size: 12px;
+  }
+
+  .footer-social-links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .footer-social-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo{
+    margin: 0 auto;
+    width: 50%;
   }
 }
