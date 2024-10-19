@@ -109,6 +109,18 @@
     line-height: 24px;
     max-width: 900px;
   }
+
+  /* contact-section */
+
+  /* .contact-sec-details-name , .contact-sec-details-conatact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } */
+
+  .contact-sec-img{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -320,4 +332,12 @@
       font-size: 12px;
       line-height: 20px;
     }
+
+    /* contact-section */
+
+      .contact-sec-details-name , .contact-sec-details-conatact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
