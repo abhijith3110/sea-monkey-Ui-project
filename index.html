@@ -16,6 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Sea Monkey</title>
   </head>
 
@@ -137,7 +138,9 @@
         <div class="expeditions-cards">
           <div class="expeditions-card">
             <div class="expeditions-card-img">
-              <img src="/asserts/images/Expeditions_main1.svg" alt="" />
+              <img class="sliders" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main1.svg" alt="" />
+              <img class="sliders" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main-3.svg" alt="" />
+              <img class="sliders" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main_2.svg" alt="" />
             </div>
             <div class="expeditions-card-content">
               <div class="expeditions-card-content-header">
@@ -164,7 +167,13 @@
 
           <div class="expeditions-card">
             <div class="expeditions-card-img">
-              <img src="/asserts/images/Expeditions_main_2.svg" alt="" />
+              <img class="sliders-card2" src="/asserts/images/Expeditions_main_2.svg" alt="" />
+              <img class="sliders-card2" src="/asserts/images/Expeditions_main1.svg" alt="" />
+              <img class="sliders-card2" src="/asserts/images/Expeditions_main-3.svg" alt="" />
+              <div class="slider-btns">
+              <button class="slider-btn" onclick="slideBtn(-1)">&#10094;</button>
+              <button class="slider-btn" onclick="slideBtn(1)">&#10095;</button>
+            </div>
             </div>
             <div class="expeditions-card-content">
               <div class="expeditions-card-content-header">
@@ -191,7 +200,15 @@
 
           <div class="expeditions-card">
             <div class="expeditions-card-img">
-              <img src="/asserts/images/Expeditions_main-3.svg" alt="" />
+              <img class="sliders-card3" src="/asserts/images/Expeditions_main-3.svg" alt="" />
+              <img class="sliders-card3" src="/asserts/images/Expeditions_main1.svg" alt="" />
+              <img class="sliders-card3" src="/asserts/images/Expeditions_main_2.svg" alt="" />
+
+              <div>
+                <i class="fa-regular fa-circle demo"></i>
+                <i class="fa-regular fa-circle demo"></i>
+                <i class="fa-regular fa-circle demo"></i>
+              </div>
             </div>
             <div class="expeditions-card-content">
               <div class="expeditions-card-content-header">

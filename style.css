@@ -395,6 +395,37 @@ i,
   width: 100%;
 }
 
+.expeditions-card-img {
+  position: relative;
+}
+
+.slider-btn {
+  padding: 4px 10px;
+  border: none;
+  background: rgba(255, 165, 9, 1);
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.slider-btns {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes fadeIn {
+
+  75% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* FAQ */
 
 .faq-container {
