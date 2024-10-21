@@ -226,7 +226,17 @@
   /* gallery */
 
   .gallery-imgs {
-    gap:10px;
+    gap: 10px;
+  }
+
+  /* Gallery-page */
+
+  .gallery-page-imgs {
+    gap: 12px;
+  }
+
+  .gallery-page-imgs2 {
+    gap: 12px;
   }
 }
 
@@ -409,6 +419,16 @@
 
   /* gallery */
   .gallery-imgs {
-    gap:5px;
+    gap: 5px;
+  }
+
+  /* gallery-page */
+
+  .gallery-page-imgs2 {
+    gap: 2px;
+  }
+
+  .gallery-page-imgs {
+    gap: 2px;
   }
 }
