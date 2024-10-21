@@ -730,8 +730,8 @@ footer {
 
 .gallery-imgs {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px 5px;
+  grid-template-columns: 40.25% 27.41% 27.41%;
+  gap:20px;
 }
 
 .grid-container > div {
