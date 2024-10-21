@@ -66,28 +66,26 @@ function showSlider(n) {
 // _____________Third Slide Card_________________
 
 
-var slideNo = 1;
-showDivs(slideNo);
-var x = document.getElementsByClassName("sliders-card3");
+let slideIndexNo = 0;
+let slide_three = document.getElementsByClassName("sliders-card3");
 
-function currentDiv(n) {
-  showDivs(slideNo = n);
+function sliderLast(){
+  for (let i = 0 ; i < slide_three.length ; i++){
+    slide_three[i].style.display = "none";
+  }
+
+  slideIndexNo++;
+
+  if(slideIndexNo > slide_three.length){
+    slideIndexNo = 1;
+  }
+  
+  slide_three[slideIndexNo - 1].style.display = "block";
+  setTimeout(slider,1500);
+
 }
 
-function showDivs(n) {
-  var i;
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideNo = 1}
-  if (n < 1) {slideNo = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideNo-1].style.display = "block";  
-  dots[slideNo-1].className += " w3-white";
-}
+sliderLast();
 
 
 
