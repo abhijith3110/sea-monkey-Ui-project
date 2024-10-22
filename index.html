@@ -16,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <title>Sea Monkey</title>
   </head>
 
@@ -27,7 +27,9 @@
       <div class="header-container">
         <div class="header">
           <div class="header-logo">
-            <img src="/asserts/images/header_logo.svg" alt="logo" />
+            <a href="#">
+              <img src="/asserts/images/header_logo.svg" alt="logo" />
+            </a>
           </div>
 
           <div class="hr">
@@ -36,13 +38,23 @@
 
           <nav class="header-nav">
             <ul>
-              <li><a class="nav-a" href="#">Expeditions</a></li>
+              <li><a class="nav-a" href="#expeditions">Expeditions</a></li>
               <li><a class="nav-a" href="/gallery.html">GALLERY</a></li>
-              <li><a class="nav-a" href="#">FAQ</a></li>
+              <li><a class="nav-a" href="#faq">FAQ</a></li>
               <li>
                 <button class="nav-btn-header">
-                  Contact
-                  <i class="material-symbols-outlined"> chevron_right </i>
+                  <a
+                    style="
+                      margin: 0;
+                      display: flex;
+                      align-items: center;
+                      gap: 15px;
+                    "
+                    href="#contact"
+                  >
+                    Contact
+                    <i class="material-symbols-outlined"> chevron_right </i>
+                  </a>
                 </button>
               </li>
             </ul>
@@ -52,7 +64,6 @@
     </header>
 
     <!-- Banner -->
-
     <section class="banner-background-img">
       <div class="banner">
         <div class="banner-content-heading">
@@ -108,7 +119,7 @@
 
     <!-- Expeditions-section -->
 
-    <section class="expeditions-section">
+    <section class="expeditions-section" id="expeditions">
       <div class="expeditions-section-container">
         <div class="expeditions-header">
           <div class="expeditions-header-heading">
@@ -138,9 +149,24 @@
         <div class="expeditions-cards">
           <div class="expeditions-card">
             <div class="expeditions-card-img">
-              <img class="sliders" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main1.svg" alt="" />
-              <img class="sliders" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main-3.svg" alt="" />
-              <img class="sliders" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main_2.svg" alt="" />
+              <img
+                class="sliders"
+                style="animation: fadeIn 5s"
+                src="/asserts/images/Expeditions_main1.svg"
+                alt=""
+              />
+              <img
+                class="sliders"
+                style="animation: fadeIn 5s"
+                src="/asserts/images/Expeditions_main-3.svg"
+                alt=""
+              />
+              <img
+                class="sliders"
+                style="animation: fadeIn 5s"
+                src="/asserts/images/Expeditions_main_2.svg"
+                alt=""
+              />
             </div>
             <div class="expeditions-card-content">
               <div class="expeditions-card-content-header">
@@ -167,13 +193,29 @@
 
           <div class="expeditions-card">
             <div class="expeditions-card-img">
-              <img class="sliders-card2" src="/asserts/images/Expeditions_main_2.svg" alt="" />
-              <img class="sliders-card2" src="/asserts/images/Expeditions_main1.svg" alt="" />
-              <img class="sliders-card2" src="/asserts/images/Expeditions_main-3.svg" alt="" />
+              <img
+                class="sliders-card2"
+                src="/asserts/images/Expeditions_main_2.svg"
+                alt=""
+              />
+              <img
+                class="sliders-card2"
+                src="/asserts/images/Expeditions_main1.svg"
+                alt=""
+              />
+              <img
+                class="sliders-card2"
+                src="/asserts/images/Expeditions_main-3.svg"
+                alt=""
+              />
               <div class="slider-btns">
-              <button class="slider-btn" onclick="slideBtn(-1)">&#10094;</button>
-              <button class="slider-btn" onclick="slideBtn(1)">&#10095;</button>
-            </div>
+                <button class="slider-btn" onclick="slideBtn(-1)">
+                  &#10094;
+                </button>
+                <button class="slider-btn" onclick="slideBtn(1)">
+                  &#10095;
+                </button>
+              </div>
             </div>
             <div class="expeditions-card-content">
               <div class="expeditions-card-content-header">
@@ -200,9 +242,24 @@
 
           <div class="expeditions-card">
             <div class="expeditions-card-img">
-              <img class="sliders-card3" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main-3.svg" alt="" />
-              <img class="sliders-card3" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main1.svg" alt="" />
-              <img class="sliders-card3" style="animation: fadeIn 5s;" src="/asserts/images/Expeditions_main_2.svg" alt="" />
+              <img
+                class="sliders3"
+                style="animation: fadeIn 5s"
+                src="/asserts/images/Expeditions_main1.svg"
+                alt=""
+              />
+              <img
+                class="sliders3"
+                style="animation: fadeIn 5s"
+                src="/asserts/images/Expeditions_main-3.svg"
+                alt=""
+              />
+              <img
+                class="sliders3"
+                style="animation: fadeIn 5s"
+                src="/asserts/images/Expeditions_main_2.svg"
+                alt=""
+              />
             </div>
             <div class="expeditions-card-content">
               <div class="expeditions-card-content-header">
@@ -269,7 +326,7 @@
     </section>
 
     <!-- FAQ - section -->
-    <section class="faq-container">
+    <section class="faq-container" id="faq">
       <div class="faq-section">
         <div class="faq-header">
           <div class="faq-header-heading">
@@ -316,7 +373,7 @@
     </section>
 
     <!-- Contact-section -->
-    <section class="contact-background-img">
+    <section class="contact-background-img" id="contact">
       <div class="Contact-section-container">
         <div class="contact-card">
           <div class="contact-sec-img">
@@ -399,7 +456,7 @@
       </div>
     </footer>
 
-    <hr class="hr"/>
+    <hr class="hr" />
 
     <div class="copyright-banner">
       <div class="copyright-container">
